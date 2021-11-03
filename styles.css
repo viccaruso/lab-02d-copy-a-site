@@ -1,0 +1,40 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    border: 1px solid red;
+}
+
+
+main {
+    margin: 0 200px 0 200px;
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+    border: 5px solid red;
+}
+
+.main-col-b {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    border: 5px solid blue;
+}
+
+.col-b-bottom-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr .5fr;
+    border: 5px solid orange;
+}
+
+.left-section, .mid-section, .right-section {
+    display: grid;
+    grid-template-rows: 1fr auto;
+
+}
